@@ -2,3 +2,87 @@
 .App{
   text-align: center;
 }
+
+.Navbar{
+  width: 95%;
+  display: flex;
+  gap: 30px;
+  margin: auto;
+}
+img{
+  width: 140px;
+  height: 55px;
+  margin-top: 6px;
+}
+img:hover{
+  text-underline-offset: 30px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.p{
+  font-size: 17px;
+  color: rgb(107 114 128/var(--tw-text-opacity));
+}
+.p:hover{
+  text-underline-offset: 32px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.inputs{
+  width: 35%;
+  min-height: 200px;
+  margin: auto;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.reg{
+  color: blue;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+input{
+  width: 250px;
+  height: 20px;
+}
+.lab{
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.df1{
+  width: 60%;
+  margin: auto;
+  display: flex;  
+}
+.df{
+  width: 60%;
+  margin: auto;
+  display: flex;  
+  gap: 5px;
+}
+.checkbox{
+  margin-top: 15px;
+}
+button{
+  background-color: rgb(21, 21, 21);
+  color: white;
+  min-width: 50px;
+  margin-top: 13px;
+  border-radius: 5px;
+  padding: 5px;
+  height: 30px;
+  margin-left: 10px;
+}
+button:hover{
+  background-color: rgb(43, 43, 43);
+  color: white;
+  min-width: 50px;
+  margin-top: 13px;
+  border-radius: 5px;
+  padding: 5px;
+  height: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}
