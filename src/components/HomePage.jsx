@@ -3,15 +3,18 @@ import masai from '../assets/masai.png'
 export const HomePage = () =>{
   return (
     <div className="HomePage">
-      <img className='img' src={masai} alt="" />
+      <img className='img1' src={masai} alt="" />
       <div className='inputs'>
-        <label className='lab' htmlFor="">Email</label> <br /> 
+        <label className='label1' >Email</label> <br /> 
         <input type="text" name="" id="" /> <br /><br />
-        <label className='lab' htmlFor="">Password</label> <br />
-        <input type="text" name="" id="" /> <br /><br />
-        <div className='df1'><input className='checkbox' type="checkbox" name="" id="" /> <p className='1'>Remember me</p></div>
+        <label className='label1' >Password</label> <br />
+        <input type="text" name="" id="" /> <br /> <br />
+        <div className='df1'>
+          <label className='label'>
+          <input className='inp' type="checkbox" /> Remember me
+        </label> </div>
          
-       <div className='df'><p>Forgot your password?</p><button>LOG IN</button></div>
+       <div className='df'><p className='aa'>Forgot your password?</p><button>LOG IN</button></div>
       </div>
     </div>
   );

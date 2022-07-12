@@ -30,35 +30,40 @@ img:hover{
 }
 
 .inputs{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   width: 35%;
   min-height: 200px;
-  margin: auto;
-  border: 1px solid;
+  margin: auto;  
+  padding: 10px;
   border-radius: 5px;
+  margin-bottom: 5px;
 }
-.reg{
-  color: blue;
-  text-decoration: underline;
-  text-underline-offset: 3px;
+.img1{
+  width: 240px;
+  height: 100px;  
 }
 input{
-  width: 250px;
-  height: 20px;
+  width: 400px;
+  height: 35px;
+  border: 0.5px solid;
+  border-radius: 5px;
 }
-.lab{
-  font-size: 18px;
-  font-weight: 500;
-  text-align: left;
+.label1{
+  display: block; 
+  margin-left: 25px;
+  font-size: 15px;
+  font-weight: 500;  
+  text-align: start;
 }
 
 .df1{
-  width: 60%;
-  margin: auto;
-  display: flex;  
+  width: 30%;  
+  margin-left: 20px;
+   
 }
 .df{
   width: 60%;
-  margin: auto;
+  margin-left: auto;
   display: flex;  
   gap: 5px;
 }
@@ -84,5 +89,26 @@ button:hover{
   padding: 5px;
   height: 30px;
   margin-left: 10px;
+  cursor: pointer;
+}
+
+.label {
+  display: block;
+  padding-left: 15px;
+  text-indent: -15px;
+}
+.inp {
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  margin: 0;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+}
+
+.aa{
+  text-decoration: underline;
+  color: rgb(110, 110, 110);
   cursor: pointer;
 }
