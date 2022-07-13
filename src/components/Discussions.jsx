@@ -9,7 +9,11 @@ export const Discussions = () => {
     <div className="Discussions">      
       <h2 className='h22'>Discussions</h2>      
     </div>
-    </div>    
+    </div>   
+    <div className='discuss'>
+      .
+<hr />
+    </div>   
     </>
   );
 }

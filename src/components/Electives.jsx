@@ -7,7 +7,8 @@ export const Electives = () => {
     <hr />
     <div className='divcc'>
     <div className="Electives">      
-      <h2 className='h22'>Electives</h2>      
+      <h2 className='h22'>Electives</h2>  
+      <h2><button className='btns'>CATALOG</button></h2>        
     </div>
     </div>    
     </>

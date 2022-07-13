@@ -8,8 +8,11 @@ export const Notifications = () => {
     <div className='divcc'>
     <div className="Notifications">      
       <h2 className='h22'>Notifications</h2>      
-    </div>
     </div>    
+    </div>  
+    <div className='notify'>
+.
+    </div>  
     </>
   );
 }

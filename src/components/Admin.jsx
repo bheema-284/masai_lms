@@ -9,7 +9,10 @@ export const Admin = () => {
     <div className="Admin">      
       <h2 className='h22'>Admin</h2>      
     </div>
-    </div>    
+    </div> 
+    <div className='adm'>
+.
+    </div>   
     </>
   );
 }
