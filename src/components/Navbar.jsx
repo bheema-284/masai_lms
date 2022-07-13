@@ -11,7 +11,7 @@ export const Navbar = () => {
       <p className='p'>Discussions</p>
       <p className='p'>Notifications</p>
       <p className='p'>Electives</p>
-      <p className='p'>Bheema(fw14_284)</p>
+      <div className='ppa'><p className='p'>Bheemudu Guguloth (fw14_284)</p></div>
     </div>
   );
 }

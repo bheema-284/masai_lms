@@ -70,26 +70,28 @@ input{
 .checkbox{
   margin-top: 15px;
 }
-button{
-  background-color: rgb(21, 21, 21);
+.login{
+  background-color: rgb(32, 32, 32);
   color: white;
-  min-width: 50px;
+  min-width: 80px;
   margin-top: 13px;
   border-radius: 5px;
   padding: 5px;
   height: 30px;
-  margin-left: 10px;
+  margin-left: 3px;  
+  
 }
-button:hover{
-  background-color: rgb(43, 43, 43);
+.login:hover{
+  background-color: rgb(66, 66, 66);
   color: white;
-  min-width: 50px;
+  min-width: 80px;
   margin-top: 13px;
   border-radius: 5px;
   padding: 5px;
   height: 30px;
-  margin-left: 10px;
+  margin-left: 3px;
   cursor: pointer;
+  border: 2px rgb(183, 183, 183);
 }
 
 .label {
@@ -111,4 +113,116 @@ button:hover{
   text-decoration: underline;
   color: rgb(110, 110, 110);
   cursor: pointer;
+}
+
+.Shedule{
+  width: 95%;
+  justify-content: space-between;
+  display: flex;
+  padding: 10px;
+  margin: auto;
+  height: 80px;
+}
+.divcc{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.btnss{
+  display: flex;
+  gap: 5px;
+}
+
+.btns{
+  background-color: rgb(32, 32, 32);
+  color: white;
+  min-width: 80px;
+  margin-top: 13px;
+  border-radius: 5px;
+  padding: 5px;
+  height: 30px;
+  margin-left: 3px;  
+  cursor: pointer;
+}
+
+.btns:hover{
+  background-color: rgb(66, 66, 66);
+  color: white;
+  min-width: 80px;
+  margin-top: 13px;
+  border-radius: 5px;
+  padding: 5px;
+  height: 30px;
+  margin-left: 3px;  
+  cursor: pointer;
+}
+
+.shedules{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 95%;  
+  margin: auto;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+.all-lect{ 
+  height: 120px;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;  
+}
+.all-lect:hover{ 
+  height: 120px;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;  
+  background-color: rgb(255, 255, 255);
+}
+.lect{
+  padding-top: 1px;
+  width: 180px;
+  height: 100%;
+  background-color: rgb(78, 78, 248);
+  color: white;
+}
+.h3{
+  color: rgb(78, 78, 241);
+  text-align: start;
+}
+.details{
+  margin-left: auto;
+  width: 150px;
+}
+
+.detls{
+  margin-right: auto;
+  
+}
+
+.ppa{
+  margin-left: 85px;
+  text-align: right;
+}
+
+.dbtns{
+background-color: rgb(147, 188, 255);
+border-radius: 30px;
+color: black;
+border: transparent;
+height: 20px;
+width: 50px;
+}
+.dbtnss{
+  background-color: rgb(150, 244, 171);
+  border-radius: 30px;
+  width: 50px;
+  color: black;
+  border: transparent;
+  height: 20px;
+}
+
+.btnsdiv{
+  margin-left: -110px;
+}
+.btnsdivs{
+  margin-left: -180px;
 }

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../App.css';
 import masai from '../assets/masai.png'
 export const HomePage = () =>{
@@ -13,8 +14,10 @@ export const HomePage = () =>{
           <label className='label'>
           <input className='inp' type="checkbox" /> Remember me
         </label> </div>
-         
-       <div className='df'><p className='aa'>Forgot your password?</p><button>LOG IN</button></div>
+                     
+                                       
+                      
+       <div className='df'><p className='aa'>Forgot your password?</p><Link to={`/login`}><button className='login'>LOG IN</button></Link>    </div>
       </div>
     </div>
   );
