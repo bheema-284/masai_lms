@@ -15,8 +15,8 @@ export const Shedule = () => {
     </div>
     </div>
     <div className='shedules'>
-<div className='all-lect'>
-    <div className='lect'>
+<div className='all-lects'>
+    <div className='lects'>
         <h4>9:00 AM </h4>
         <h4>LECTURE</h4>
     </div>
@@ -28,12 +28,12 @@ export const Shedule = () => {
     <div className='details'>Details </div>
 </div>
 <hr />
-<div className='all-lect'>
-    <div className='lect'>
+<div className='all-lects'>
+    <div className='lects'>
         <h4>12:00 PM </h4>
         <h4>LECTURE</h4>
     </div>
-    <div className='detls'>
+    <div className='detlss'>
         <h3 className='h3'>Thrive Regular Standup [week 4]</h3>
         <p><strong>Bheema Guguloth</strong>  Starting at  <strong>12:00 PM</strong></p>
         <div className='btnsdivs'><button className='dbtns'>scrum</button> <button className='dbtnss'>live</button></div>

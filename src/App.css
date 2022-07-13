@@ -162,15 +162,38 @@ input{
   border-radius: 5px;
   margin-top: 50px;
 }
+
+.all-lects{ 
+  height: 125px;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;  
+}
+.all-lects:hover{ 
+  height: 125px;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;  
+  background-color: rgb(255, 255, 255);
+}
+.lects{
+  padding-top: 1px;
+  width: 180px;
+  height: 100%;
+  background-color: rgb(78, 78, 248);
+  color: white;
+}
 .all-lect{ 
-  height: 120px;
+  height: 80px;
   padding: 20px;
   display: flex;
   gap: 10px;
   cursor: pointer;  
 }
 .all-lect:hover{ 
-  height: 120px;
+  height: 80px;
   padding: 20px;
   display: flex;
   gap: 10px;

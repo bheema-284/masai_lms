@@ -27,7 +27,7 @@ export const Assignments = () => {
     </div>
     <div className='detailss'><button className='dbtnspp'>Progress</button> <div><p>1/3</p></div> </div>   
 </div>
-
+<hr />
 <div className='all-lect'>    
     <div className='detls'>
     <h3 className='h3'>Thrive - Week 2 <button className='backend'>BACKEND</button> </h3>
