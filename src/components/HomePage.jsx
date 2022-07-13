@@ -17,7 +17,7 @@ export const HomePage = () =>{
                      
                                        
                       
-       <div className='df'><p className='aa'>Forgot your password?</p><Link to={`/login`}><button className='login'>LOG IN</button></Link>    </div>
+       <div className='df'><p className='aa'>Forgot your password?</p><Link to={`/dashboard`}><button className='login'>LOG IN</button></Link>    </div>
       </div>
     </div>
   );

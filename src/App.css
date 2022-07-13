@@ -24,7 +24,7 @@ img:hover{
   color: rgb(107 114 128/var(--tw-text-opacity));
 }
 .p:hover{
-  text-underline-offset: 32px;
+  text-underline-offset: 35px;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -225,4 +225,69 @@ width: 50px;
 }
 .btnsdivs{
   margin-left: -180px;
+}
+
+.links{    
+  color: black;
+  text-underline-offset: 35px;
+  text-decoration: none;
+  cursor: pointer;
+}
+ .links:focus{
+  color: rgb(78, 78, 248);
+  text-underline-offset: 35px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.links:hover{
+  /* color: black; */
+  text-underline-offset: 35px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.dbtnsa{
+  background-color: rgb(241, 56, 56);
+  width: 65px;
+  color: white;
+  border: transparent;
+  height: 30px;
+}
+.dbtnsp{
+  background-color: rgb(29, 222, 71);
+  width: 65px;
+  color: white;
+  border: transparent;
+  height: 30px;
+}
+
+.live{
+  background-color: rgb(23, 143, 49);
+  width: 40px;
+  color: white;
+  border: transparent;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.Lectures{
+  width: 95%;
+  margin-left: 30px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+.h22{  
+  text-align: start;
+}
+.lecturs{  
+  margin: auto;
+  width: 95%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.Admin{
+  width: 95%;
+  margin-left: 30px;
+  height: 50px;
+  margin-bottom: 50px;
 }
