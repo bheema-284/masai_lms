@@ -5,6 +5,10 @@ import { Shedule } from './components/Shedule';
 import { Lectures } from './components/Lectures';
 import { Assignments } from './components/Assignments';
 import { Admin } from './components/Admin';
+import { Discussions } from './components/Discussions';
+import { Electives } from './components/Electives';
+import { Notifications } from './components/Notifications';
+import { Tickets } from './components/Tickets';
 function App() {
   return (
     <div className="App">     
@@ -15,6 +19,10 @@ function App() {
           <Route path="/lectures" element={<Lectures />} />
           <Route path="/admin" element={<Admin />} />
           <Route path="/assignments" element={<Assignments />} />
+          <Route path="/tickets" element={<Tickets />} />
+          <Route path="/notifications" element={<Notifications />} />
+          <Route path="/electives" element={<Electives />} />
+          <Route path="/discussions" element={<Discussions />} />
         </Routes>
     </div>
   );
