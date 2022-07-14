@@ -233,6 +233,7 @@ color: black;
 border: transparent;
 height: 20px;
 width: 50px;
+cursor: pointer;
 }
 .dbtnss{
   background-color: rgb(150, 244, 171);
@@ -241,6 +242,7 @@ width: 50px;
   color: black;
   border: transparent;
   height: 20px;
+  cursor: pointer;
 }
 
 .btnsdiv{
@@ -274,6 +276,7 @@ width: 50px;
   color: white;
   border: transparent;
   height: 30px;
+  cursor: pointer;
 }
 .dbtnsp{
   background-color: rgb(29, 222, 71);
@@ -281,6 +284,7 @@ width: 50px;
   color: white;
   border: transparent;
   height: 30px;
+  cursor: pointer;
 }
 
 .live{
@@ -290,6 +294,7 @@ width: 50px;
   border: transparent;
   height: 20px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .Lectures{
@@ -345,6 +350,7 @@ width: 50px;
   color: white;
   border: transparent;
   height: 25px;
+  cursor: pointer;
 }
 .dbtnsc{
   background-color: rgb(19, 64, 28);
@@ -352,6 +358,7 @@ width: 50px;
   color: white;
   border: transparent;
   height: 25px;
+  cursor: pointer;
 }
 .fullstack{
   background-color: rgb(45, 131, 211);
@@ -360,6 +367,7 @@ width: 50px;
   border: transparent;
   height: 20px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .frontend{
@@ -369,6 +377,7 @@ width: 50px;
   border: transparent;
   height: 20px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .backend{
@@ -378,6 +387,7 @@ width: 50px;
   border: transparent;
   height: 20px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .oj{
@@ -387,6 +397,7 @@ width: 50px;
   border: transparent;
   height: 20px;
   border-radius: 5px;
+  cursor: pointer;
 }
 .dbtnspp{
   background-color: rgb(156, 156, 35);
@@ -394,6 +405,7 @@ width: 50px;
   color: white;
   border: transparent;
   height: 25px;
+  cursor: pointer;
 }
 .detailss{
   display: flex;
