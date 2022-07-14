@@ -679,5 +679,6 @@ textarea:focus, textarea:active,textarea:visited{
   width: 95%;
   margin: auto;
   margin-top: 50px;
+  cursor: pointer;
   }
   
