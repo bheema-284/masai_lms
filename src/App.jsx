@@ -9,12 +9,16 @@ import { Discussions } from './components/Discussions';
 import { Electives } from './components/Electives';
 import { Notifications } from './components/Notifications';
 import { Tickets } from './components/Tickets';
+import { Referal } from './components/Referal';
+import { BookMarks } from './components/BookMarks';
 function App() {
   return (
     <div className="App">     
       
       <Routes>
           <Route path="/" element={<HomePage/>} />
+          <Route path="/login" element={<Referal/>} />
+          <Route path="/bookmarks" element={<BookMarks/>} />
           <Route path="/dashboard" element={<Shedule />} />
           <Route path="/lectures" element={<Lectures />} />
           <Route path="/admin" element={<Admin />} />

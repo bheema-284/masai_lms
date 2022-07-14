@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Navbar } from './Navbar';
 import '../App.css';
 export const Shedule = () => {
@@ -9,8 +10,8 @@ export const Shedule = () => {
     <div className="Shedule">      
       <h2 className='h2'>Today's Shedule</h2>
       <div className='btnss'>
-        <h2><button className='btns'>BOOKMARKS</button></h2>
-        <h2><button className='btns'>REFER & EARN</button></h2>
+        <Link to={`/bookmarks`}><h2><button className='btns'>BOOKMARKS</button></h2></Link>
+        <Link to={`/login`}><h2><button className='btns'>REFER & EARN</button></h2></Link>
         </div>
     </div>
     </div>
