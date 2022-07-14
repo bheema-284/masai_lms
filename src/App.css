@@ -587,8 +587,7 @@ width: 50px;
 .bookmarks{
   width: 95%;
   margin: auto;
-
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .h33333{
@@ -602,4 +601,65 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .aaaa{ 
   color: #9f9f9f;
+}
+.createtickts{
+  width: 95%; 
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.select1{
+  width: 26%;
+  height: 38px;
+  border: 0.5px solid;
+  border-radius: 5px; 
+  font-size: 16px; 
+}
+
+.creatediv{
+  text-align: left;
+  padding-left: 40px;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+.cteateinpt{
+  width: 90%;
+  font-size: 16px; 
+}
+textarea{
+  border: transparent;
+  font-size: 18px;
+}
+textarea:focus, textarea:active,textarea:visited{
+  border: transparent;
+}
+
+.createaa{
+  display: flex;
+  gap: 20px;
+  width: 96%;
+  padding-left: 10px;  
+  height: 60px;
+  cursor: pointer;
+  font-size: 16px; 
+  background-color: #f8f7f7;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.createaa1:hover{  
+  color: blue;
+  text-decoration: underline;
+}
+.createaa2:hover{  
+  color: blue;
+  text-decoration: underline;
+}
+.createaa3:hover{  
+  color: blue;
+  text-decoration: underline;
+}
+
+.btnsasa{
+  text-align: start;
+  margin-left: 30px;
 }

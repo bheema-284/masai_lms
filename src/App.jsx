@@ -11,6 +11,7 @@ import { Notifications } from './components/Notifications';
 import { Tickets } from './components/Tickets';
 import { Referal } from './components/Referal';
 import { BookMarks } from './components/BookMarks';
+import { CreateTickets } from './components/CreateTickets';
 function App() {
   return (
     <div className="App">     
@@ -24,6 +25,7 @@ function App() {
           <Route path="/admin" element={<Admin />} />
           <Route path="/assignments" element={<Assignments />} />
           <Route path="/tickets" element={<Tickets />} />
+          <Route path="/tickets/create" element={<CreateTickets />} />
           <Route path="/notifications" element={<Notifications />} />
           <Route path="/electives" element={<Electives />} />
           <Route path="/discussions" element={<Discussions />} />
