@@ -16,6 +16,8 @@ export const Referal = () =>{
 
        <div className='df1111'><p className='aaa'>Don't have an account?</p><Link className='aalink' to={`/signup`}><p className='login111'>Sign Up</p></Link>    </div>
       </div>
+      <p className='aaaa'>© 2022 by Masai School
+Privacy Policy & Terms and Conditions</p>
     </div>
   );
 }
