@@ -1,3 +1,4 @@
+import Popup from 'reactjs-popup';
 import { Link } from 'react-router-dom';
 import '../App.css';
 import masai from '../assets/masai.png'
@@ -12,7 +13,24 @@ export const Navbar = () => {
       <Link className='links' to={'/discussions'}><p className='p'>Discussions</p></Link>
       <Link className='links' to={'/notifications'}><p className='p'>Notifications</p></Link>
       <Link className='links' to={'/electives'}><p className='p'>Electives</p></Link>                                
-      <div className='ppa'><p className='p'>Bheemudu Guguloth (fw14_284)</p></div>
+      <div className='ppa'>
+      <div>
+    <Popup className='pppaa'
+    trigger={<p className='p'>Bheemudu Guguloth (fw14_284)</p>}
+    modal
+    nested
+  >   
+      <div className="profile">               
+        <div className="pcontent">
+          <p className='paaa'> Manage Account </p>
+          <p className='paaaa'>Profile</p>
+          <p className='paaaa'>Log Out</p>
+        </div>              
+      </div>
+    
+  </Popup>
+    </div>
+      </div>
     </div>
   );
 }

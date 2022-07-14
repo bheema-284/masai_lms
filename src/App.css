@@ -694,4 +694,30 @@ textarea:focus, textarea:active,textarea:visited{
   margin-top: 50px;
   cursor: pointer;
   }
-  
+  .profile{
+    font-size: 12px;    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;   
+    border-radius: 10px;   
+    margin-left: 1000px; 
+    margin-bottom: 350px;
+    width: 200px;
+  }
+  .pcontent {      
+    padding: 10px;  
+  }
+  .paaa{
+    font-size: 15px;
+    color: #9f9f9f;
+  }
+  .pppaa{
+    margin-left: 200px;
+  }
+  .paaaa{
+    font-size: 15px;
+    cursor: pointer;    
+  }
+  .paaaa:hover{
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #f0f0f0;    
+  }
