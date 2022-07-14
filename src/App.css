@@ -663,3 +663,21 @@ textarea:focus, textarea:active,textarea:visited{
   text-align: start;
   margin-left: 30px;
 }
+
+.ElectivesCatalogsss{
+  width: 95%;  
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: start;
+  padding: 14px;
+  border-radius: 5px;
+}
+
+.Catalogss{
+  display: flex;
+  gap: 0%;
+  width: 95%;
+  margin: auto;
+  margin-top: 50px;
+  }
+  

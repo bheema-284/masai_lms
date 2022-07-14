@@ -12,6 +12,7 @@ import { Tickets } from './components/Tickets';
 import { Referal } from './components/Referal';
 import { BookMarks } from './components/BookMarks';
 import { CreateTickets } from './components/CreateTickets';
+import { ElectivesCatalog } from './components/ElectivesCatalog';
 function App() {
   return (
     <div className="App">     
@@ -28,6 +29,7 @@ function App() {
           <Route path="/tickets/create" element={<CreateTickets />} />
           <Route path="/notifications" element={<Notifications />} />
           <Route path="/electives" element={<Electives />} />
+          <Route path="/electives/catalog" element={<ElectivesCatalog />} />
           <Route path="/discussions" element={<Discussions />} />
         </Routes>
     </div>
