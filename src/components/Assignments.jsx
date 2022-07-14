@@ -41,7 +41,7 @@ export const Assignments = () => {
     <h3 className='h3'>DSA Practice Contest <button className='oj'>OJ</button> </h3>
         <p><strong>Bheema Guguloth</strong>  Created  <strong>Assignments Problems</strong> at 09 Jul, 22 - 05:00 pm </p>      
     </div>
-    <div className='detailss'><button className='dbtnsc'>Completed</button> <div><p>1/1</p></div> </div>
+    <div className='detailss'><button className='dbtnsc'>Completed</button>  </div>
 </div>
     </div>
     </div>
