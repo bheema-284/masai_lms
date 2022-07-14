@@ -460,3 +460,63 @@ width: 50px;
   margin: auto;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+.modal {
+  font-size: 12px;
+  margin-top: 160px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  border-radius: 10px;
+}
+ .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 25px;
+  text-align: center;
+  padding: 5px;  
+  font-weight: 600;
+}
+.content {
+  width: 100%;
+  padding: 10px 5px;
+  
+}
+.actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+  margin-top: 180px;
+  margin-right: 20px;
+}
+
+.lectlable{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.adminspage{
+  display: flex;
+  gap: 50px;
+  width: 25%;
+  margin: auto;
+}
+
+.select{
+  width: 97.5%;
+  height: 38px;
+  border: 0.5px solid;
+  border-radius: 5px;
+}

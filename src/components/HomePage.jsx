@@ -7,9 +7,9 @@ export const HomePage = () =>{
       <img className='img1' src={masai} alt="" />
       <div className='inputs'>
         <label className='label1' >Email</label> <br /> 
-        <input type="text" name="" id="" /> <br /><br />
+        <input type="email" name="" id="" /> <br /><br />
         <label className='label1' >Password</label> <br />
-        <input type="text" name="" id="" /> <br /> <br />
+        <input type="password" name="" id="" /> <br /> <br />
         <div className='df1'>
           <label className='label'>
           <input className='inp' type="checkbox" /> Remember me
