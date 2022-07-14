@@ -61,8 +61,9 @@ export const Admin = () => {
           <input type="text" name="" id="" /> <br />
           <label className='lectlable'>Instructor Name</label><br />
           <input type="text" name="" id="" /> <br />
-          <label className='lectlable'>Strem</label><br />
+          <label className='lectlable'>Stream</label><br />
           <select name="" className='select'>
+          <option value="">select</option>
             <option value="">FULL_STACK</option>
             <option value="">FRONTEND</option>
             <option value="">BACKEND</option>
