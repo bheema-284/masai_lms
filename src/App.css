@@ -743,8 +743,7 @@ textarea:focus, textarea:active,textarea:visited{
 
   .alert{
     background-color: red;
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    color: white;    
+    padding: 5px;
     border-radius: 5px;
   }
