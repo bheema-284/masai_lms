@@ -19,8 +19,7 @@ function App() {
   return (
     <div className="App">         
       <UserAuthContextProvider>
-      <Routes>
-          {/* <Route path="/" element={<Login />} /> */}
+      <Routes>          
           <Route path="/signup" element={<Signup />} />
           <Route path="/" element={<HomePage/>} />
           <Route path="/login" element={<Referal/>} />
