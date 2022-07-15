@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import {Signup} from "./components/Signup";
+import { Signup } from "./components/Signup";
 import { UserAuthContextProvider } from "./context/UserAuthContext";
 import { HomePage } from './components/HomePage';
 import { Shedule } from './components/Shedule';

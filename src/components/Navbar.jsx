@@ -1,8 +1,8 @@
 import Popup from 'reactjs-popup';
 import { Link } from 'react-router-dom';
+import { useNavigate } from "react-router";
 import '../App.css';
 import masai from '../assets/masai.png'
-import { useNavigate } from "react-router";
 import { useUserAuth } from "../context/UserAuthContext";
 export const Navbar = () => {
   const { logOut } = useUserAuth();
