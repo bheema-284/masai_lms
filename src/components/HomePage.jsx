@@ -22,5 +22,3 @@ export const HomePage = () =>{
     </div>
   );
 }
-
-
