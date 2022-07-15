@@ -35,10 +35,7 @@ export const HomePage = () =>{
         <div className='df1'>
           <label className='label'>
           <input className='inp' type="checkbox" /> Remember me
-        </label> </div>
-                     
-                                       
-                      
+        </label> </div>                                                                          
        <div className='df'><p className='aa'>Forgot your password?</p><button type="Submit" className='login'>LOG IN</button></div>
        </form>
        <div className='df1111'><p className='aaa'>Don't have an account?</p><Link className='aalink' to={`/signup`}><p className='login111'>Sign Up</p></Link>    </div>
