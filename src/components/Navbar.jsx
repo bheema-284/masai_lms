@@ -2,7 +2,19 @@ import Popup from 'reactjs-popup';
 import { Link } from 'react-router-dom';
 import '../App.css';
 import masai from '../assets/masai.png'
+import { useNavigate } from "react-router";
+import { useUserAuth } from "../context/UserAuthContext";
 export const Navbar = () => {
+  const { logOut } = useUserAuth();
+  const navigate = useNavigate();
+  const handleLogout = async () => {
+    try {
+      await logOut();
+      navigate("/");
+    } catch (error) {
+      console.log(error.message);
+    }
+  };
   return (
     <div className="Navbar">
       <Link className='links' to={'/dashboard'}><img className='img' src={masai} alt="" /></Link>      
@@ -24,7 +36,7 @@ export const Navbar = () => {
         <div className="pcontent">
           <p className='paaa'> Manage Account </p>
           <p className='paaaa'>Profile</p>
-          <p className='paaaa'>Log Out</p>
+          <p onClick={handleLogout} className='paaaa'>Log Out</p>
         </div>              
       </div>
     

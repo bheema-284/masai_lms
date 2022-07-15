@@ -722,3 +722,29 @@ textarea:focus, textarea:active,textarea:visited{
     cursor: pointer;
     background-color: #f0f0f0;    
   }
+  .signup{
+  background-color: rgb(66, 133, 244);
+  color: white;
+  min-width: 90%;
+  margin-top: 13px;
+  border-radius: 5px;
+  padding: 5px;
+  height: 40px;
+  margin-left: 3px;  
+  border: transparent;
+  cursor: pointer;
+  }
+
+  .google-signin{
+    margin: auto;
+    width: 50%;
+   margin-top: 50px;
+  }
+
+  .alert{
+    background-color: red;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+  }

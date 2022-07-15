@@ -1,5 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
+//import Login from "./components/Login";
+import {Signup} from "./components/Signup";
+import { UserAuthContextProvider } from "./context/UserAuthContext";
 import { HomePage } from './components/HomePage';
 import { Shedule } from './components/Shedule';
 import { Lectures } from './components/Lectures';
@@ -15,9 +18,11 @@ import { CreateTickets } from './components/CreateTickets';
 import { ElectivesCatalog } from './components/ElectivesCatalog';
 function App() {
   return (
-    <div className="App">     
-      
+    <div className="App">         
+      <UserAuthContextProvider>
       <Routes>
+          {/* <Route path="/" element={<Login />} /> */}
+          <Route path="/signup" element={<Signup />} />
           <Route path="/" element={<HomePage/>} />
           <Route path="/login" element={<Referal/>} />
           <Route path="/bookmarks" element={<BookMarks/>} />
@@ -32,6 +37,7 @@ function App() {
           <Route path="/electives/catalog" element={<ElectivesCatalog />} />
           <Route path="/discussions" element={<Discussions />} />
         </Routes>
+        </UserAuthContextProvider>
     </div>
   );
 }
