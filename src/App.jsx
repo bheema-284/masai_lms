@@ -10,6 +10,7 @@ import { Admin } from './components/Admin';
 import { Discussions } from './components/Discussions';
 import { Electives } from './components/Electives';
 import { Notifications } from './components/Notifications';
+import { Profile } from './components/Profile';
 import { Tickets } from './components/Tickets';
 import { Referal } from './components/Referal';
 import { BookMarks } from './components/BookMarks';
@@ -21,7 +22,7 @@ function App() {
       <UserAuthContextProvider>
       <Routes>          
           <Route path="/signup" element={<Signup />} />
-          <Route path="/" element={<HomePage/>} />
+          <Route path="/" element={<HomePage/>} />   
           <Route path="/login" element={<Referal/>} />
           <Route path="/bookmarks" element={<BookMarks/>} />
           <Route path="/dashboard" element={<Shedule />} />
@@ -30,6 +31,7 @@ function App() {
           <Route path="/assignments" element={<Assignments />} />
           <Route path="/tickets" element={<Tickets />} />
           <Route path="/tickets/create" element={<CreateTickets />} />
+          <Route path="/user/profile" element={<Profile />} />
           <Route path="/notifications" element={<Notifications />} />
           <Route path="/electives" element={<Electives />} />
           <Route path="/electives/catalog" element={<ElectivesCatalog />} />

@@ -35,7 +35,7 @@ export const Navbar = () => {
       <div className="profile">               
         <div className="pcontent">
           <p className='paaa'> Manage Account </p>
-          <p className='paaaa'>Profile</p>
+          <Link className='plinks' to={'/user/profile'}><p className='paaaa'>Profile</p></Link>
           <p onClick={handleLogout} className='paaaa'>Log Out</p>
         </div>              
       </div>
