@@ -51,7 +51,7 @@ img:hover{
 }
 .label1{
   display: block; 
-  margin-left: 25px;
+  margin-left:10px;
   font-size: 15px;
   font-weight: 500;  
   text-align: start;
@@ -76,11 +76,10 @@ img:hover{
   color: white;
   min-width: 80px;
   margin-top: 13px;
-  border-radius: 5px;
-  padding: 5px;
-  min-height: 30px;
+  min-height: 20px;
+  border-radius: 5px;   
   margin-left: 3px;  
-  
+  cursor: pointer;
 }
 .login:hover{
   background-color: rgb(66, 66, 66);
@@ -89,7 +88,7 @@ img:hover{
   margin-top: 13px;
   border-radius: 5px;
   padding: 5px;
-  min-height: 30px;
+  min-height: 20px;
   margin-left: 3px;
   cursor: pointer;
   border: 2px rgb(183, 183, 183);
@@ -139,7 +138,7 @@ img:hover{
   margin-top: 13px;
   border-radius: 5px;
   padding: 5px;
-  height: 30px;
+  min-height: 30px;
   margin-left: 3px;  
   cursor: pointer;
 }
@@ -151,7 +150,7 @@ img:hover{
   margin-top: 13px;
   border-radius: 5px;
   padding: 5px;
-  height: 30px;
+  min-height: 30px;
   margin-left: 3px;  
   cursor: pointer;
 }
@@ -232,7 +231,7 @@ background-color: rgb(147, 188, 255);
 border-radius: 30px;
 color: black;
 border: transparent;
-height: 20px;
+min-height: 20px;
 width: 50px;
 cursor: pointer;
 }
@@ -242,7 +241,7 @@ cursor: pointer;
   width: 50px;
   color: black;
   border: transparent;
-  height: 20px;
+  min-height: 20px;
   cursor: pointer;
 }
 
@@ -276,7 +275,7 @@ cursor: pointer;
   width: 65px;
   color: white;
   border: transparent;
-  height: 30px;
+  min-height: 30px;
   cursor: pointer;
 }
 .dbtnsp{
@@ -284,7 +283,7 @@ cursor: pointer;
   width: 65px;
   color: white;
   border: transparent;
-  height: 30px;
+  min-height: 30px;
   cursor: pointer;
 }
 
@@ -350,7 +349,7 @@ cursor: pointer;
   min-width: 45px;
   color: white;
   border: transparent;
-  height: 25px;
+  min-height: 25px;
   cursor: pointer;
 }
 .dbtnsc{
@@ -358,7 +357,7 @@ cursor: pointer;
   min-width: 65px;
   color: white;
   border: transparent;
-  height: 25px;
+  min-height: 25px;
   cursor: pointer;
 }
 .fullstack{
@@ -405,7 +404,7 @@ cursor: pointer;
   min-width: 65px;
   color: white;
   border: transparent;
-  height: 25px;
+  min-height: 25px;
   cursor: pointer;
 }
 .detailss{
@@ -729,13 +728,25 @@ textarea:focus, textarea:active,textarea:visited{
     background-color: #f0f0f0;    
   }
   .signup{
+    background-color: gainsboro;
+    color: gray;
+    min-width: 90%;
+    margin-top: 13px;
+    border-radius: 5px;
+    padding: 5px;
+    min-height: 40px;
+    margin-left: 3px;  
+    border: transparent;
+    cursor: pointer;
+    }
+  .signup:hover{
   background-color: rgb(66, 133, 244);
   color: white;
   min-width: 90%;
   margin-top: 13px;
   border-radius: 5px;
   padding: 5px;
-  height: 40px;
+  min-height: 40px;
   margin-left: 3px;  
   border: transparent;
   cursor: pointer;
