@@ -30,12 +30,12 @@ export const Signup = () =>{
       <form onSubmit={handleSubmit}>
         <h2>Sign Up</h2>
       <label className='label1' >Full Name</label> <br /> 
-        <input type="text" name="" id="" placeholder='Enter Name' /> <br /><br />
+        <input className="input" type="text" name="" id="" placeholder='Enter Name' /> <br /><br />
         <label className='label1' >Email</label> <br /> 
-        <input type="email" name="" id="" placeholder='Enter Email' onChange={(e) => setEmail(e.target.value)} /> <br /><br />
+        <input className="input" type="email" name="" id="" placeholder='Enter Email' onChange={(e) => setEmail(e.target.value)} /> <br /><br />
         <div className='passwordref'><label className='label1' >Password</label> 
        </div> <br />
-        <input type="password" name="" id="" placeholder='Enter Password' onChange={(e) => setPassword(e.target.value)} /> <br /> <br />                                          
+        <input className="input" type="password" name="" id="" placeholder='Enter Password' onChange={(e) => setPassword(e.target.value)} /> <br /> <br />                                          
        <button type="Submit" className='signup'>SIGN UP</button>   <br />
        
        </form>

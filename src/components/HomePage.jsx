@@ -29,9 +29,9 @@ export const HomePage = () =>{
       {error && <Alert className="alert" variant="danger">{error}</Alert>}
       <form onSubmit={handleSubmit}>
         <label className='label1' >Email</label> <br /> 
-        <input type="email" name="email" id="" onChange={(e) => setEmail(e.target.value)} /> <br /><br />
+        <input className="input" type="email" name="email" id="" onChange={(e) => setEmail(e.target.value)} /> <br /><br />
         <label className='label1' >Password</label> <br />
-        <input type="password" name="" id="" onChange={(e) => setPassword(e.target.value)} /> <br /> <br />
+        <input className="input" type="password" name="" id="" onChange={(e) => setPassword(e.target.value)} /> <br /> <br />
         <div className='df1'>
           <label className='label'>
           <input className='inp' type="checkbox" /> Remember me
