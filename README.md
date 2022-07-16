@@ -15,6 +15,28 @@ This is "MASAI LMS" student dashboard , once you signu/signin then you can abe t
 
 ## 3. Website snapshots:
 
+###  > Sign In Page:  
+<img width="956" alt="signIn-masai" src="https://user-images.githubusercontent.com/96168073/179340237-b753c0aa-fd8c-45cb-bf68-ae6f158e2f03.PNG">
+
+###  > Sign Up Page: 
+<img width="956" alt="signup" src="https://user-images.githubusercontent.com/96168073/179340267-d01dc05d-4d9c-4882-a38f-e97f425409b7.PNG">
+
+###  > Lectures Page: 
+<img width="957" alt="lectures" src="https://user-images.githubusercontent.com/96168073/179340184-cff82ec2-b7d7-4615-9d2e-dc00c215c245.PNG">
+
+###  > Assignments Page: 
+<img width="960" alt="assignments" src="https://user-images.githubusercontent.com/96168073/179340165-e6578ff5-4b86-4d1e-bedc-c658126f45d3.PNG">
+
+###  > Admin Page: 
+<img width="958" alt="admins" src="https://user-images.githubusercontent.com/96168073/179340430-9cb433de-f56b-47b3-a333-54eafe3337b1.PNG">
+
+###  > Electives Page: 
+<img width="960" alt="electives" src="https://user-images.githubusercontent.com/96168073/179340176-ae77848a-dee2-47f2-bb55-940ad4773f6e.PNG">
+
+###  > Profile: 
+<img width="959" alt="account" src="https://user-images.githubusercontent.com/96168073/179340153-a0688955-7161-43c3-8446-708bd9b6bdbf.PNG">
+
+
 ## 4. Quick Start:
 1. Open a folder where you want to clone the repo
 2. Do git bash here
