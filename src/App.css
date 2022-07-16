@@ -349,7 +349,7 @@ cursor: pointer;
   min-width: 45px;
   color: white;
   border: transparent;
-  min-height: 25px;
+  height: 25px;
   cursor: pointer;
 }
 .dbtnsc{
@@ -357,7 +357,7 @@ cursor: pointer;
   min-width: 65px;
   color: white;
   border: transparent;
-  min-height: 25px;
+  height: 25px;
   cursor: pointer;
 }
 .fullstack{
@@ -404,7 +404,7 @@ cursor: pointer;
   min-width: 65px;
   color: white;
   border: transparent;
-  min-height: 25px;
+  height: 25px;
   cursor: pointer;
 }
 .detailss{
@@ -472,7 +472,7 @@ cursor: pointer;
   margin: auto;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.modal {
+.modal {  
   font-size: 12px;
   margin-top: 160px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;

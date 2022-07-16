@@ -21,13 +21,13 @@ export const Admin = () => {
         <div className="header"> Create Lectures </div>
         <div className="content">
           <label className='lectlable'>Lecture Name</label><br />
-          <input type="text" name="" id="" /> <br />
+          <input className='input' type="text" name="" id="" /> <br />
           <label className='lectlable'>Instructor Name</label><br />
-          <input type="text" name="" id="" /> <br />          
+          <input className='input' type="text" name="" id="" /> <br />          
           <label className='lectlable'>Date</label><br />
-          <input type="date" name="" id="" /> <br />
+          <input className='input' type="date" name="" id="" /> <br />
           <label className='lectlable'>Time</label><br />
-          <input type="time" name="" id="" /> <br />
+          <input className='input' type="time" name="" id="" /> <br />
         </div>
         <div className="actions">          
           <button
@@ -58,9 +58,9 @@ export const Admin = () => {
         <div className="header"> Create Assignments </div>
         <div className="content">
           <label className='lectlable'>Assignment Name</label><br />
-          <input type="text" name="" id="" /> <br />
+          <input className='input' type="text" name="" id="" /> <br />
           <label className='lectlable'>Instructor Name</label><br />
-          <input type="text" name="" id="" /> <br />
+          <input className='input' type="text" name="" id="" /> <br />
           <label className='lectlable'>Stream</label><br />
           <select name="" className='select'>
           <option value="">select</option>
@@ -70,9 +70,9 @@ export const Admin = () => {
             <option value="">OJ</option>
             </select><br />
           <label className='lectlable'>Date</label><br />
-          <input type="date" name="" id="" /> <br />
+          <input className='input' type="date" name="" id="" /> <br />
           <label className='lectlable'>Time</label><br />
-          <input type="time" name="" id="" /> <br />
+          <input className='input' type="time" name="" id="" /> <br />
         </div>
         <div className="actions">          
           <button
