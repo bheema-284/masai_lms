@@ -22,8 +22,8 @@ This is "MASAI LMS" student dashboard , once you signu/signin then you can abe t
 4. The repository folder is cloned
 5. Open in VS Code, and open new terminal
 6. install npm packages
-7. Add command npm run dev
-8. View in browser(http://localhost:3000) you can able to see the features.
+7. Add command npm start
+8. View in browser(http://localhost:3000) and signup to access all features.
 
 
 ## 5. Deploy Link :
