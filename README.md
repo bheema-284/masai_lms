@@ -18,13 +18,12 @@ This is "MASAI LMS" student dashboard , once you signu/signin then you can abe t
 ## 4. Quick Start:
 1. Open a folder where you want to clone the repo
 2. Do git bash here
-3. Add command git clone https://github.com/bheema-284/sygenta.git
+3. Add command git clone https://github.com/bheema-284/masai_lms.git
 4. The repository folder is cloned
 5. Open in VS Code, and open new terminal
-6. Change directory to my_app ---> cd my_app
-7. install npm packages
-8. Add command npm run dev
-9. View in browser(http://localhost:3000) you can able to see the features.
+6. install npm packages
+7. Add command npm run dev
+8. View in browser(http://localhost:3000) you can able to see the features.
 
 
 ## 5. Deploy Link :
