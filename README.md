@@ -1,7 +1,7 @@
 # MASAI LMS
 
 
-## 1. About the Assignment:
+## 1. About the Website:
 
 This is masi student dashboard , once you signu/signin then you can abe to acces all the features like (Lectures, Assignments, Tickets, Admin, Notifications, Discussions, Electives)  
 
