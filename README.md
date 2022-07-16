@@ -3,7 +3,7 @@
 
 ## 1. About the Website:
 
-This is masi lms student dashboard , once you signu/signin then you can abe to acces all the features like (Lectures, Assignments, Tickets, Admin, Notifications, Discussions, Electives)  
+This is "MASAI LMS" student dashboard , once you signu/signin then you can abe to acces all the features like (Lectures, Assignments, Tickets, Admin, Notifications, Discussions, Electives)  
 
 ## 2. Teck stack used :
 
