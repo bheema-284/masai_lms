@@ -1,7 +1,11 @@
-# Masai Lms
+# MASAI LMS
 
 
-## Teck stack used :
+## 1. About the Assignment:
+
+This is masi student dashboard , once you signu/signin then you can abe to acces all the features like (Lectures, Assignments, Tickets, Admin, Notifications, Discussions, Electives)  
+
+## 2. Teck stack used :
 
  <a href="https://reactjs.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="50" height="50"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="50" height="50"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> 
@@ -9,7 +13,20 @@
   <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="50" height="50"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> 
    <a href="https://redux.js.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="50" height="50"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
 
+## 3. Website snapshots:
 
-   ## Deploy Link :
+## 4. Quick Start:
+1. Open a folder where you want to clone the repo
+2. Do git bash here
+3. Add command git clone https://github.com/bheema-284/sygenta.git
+4. The repository folder is cloned
+5. Open in VS Code, and open new terminal
+6. Change directory to my_app ---> cd my_app
+7. install npm packages
+8. Add command npm run dev
+9. View in browser(http://localhost:3000) you can able to see the features.
+
+
+## 5. Deploy Link :
 
    https://bheema-masai-lms.herokuapp.com/
