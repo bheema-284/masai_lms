@@ -5,7 +5,7 @@ import '../App.css';
 import masai from '../assets/masai.png'
 import { useUserAuth } from "../context/UserAuthContext";
 export const Navbar = () => {
-  const { logOut } = useUserAuth();
+  const { logOut ,user} = useUserAuth();
   const navigate = useNavigate();
   const handleLogout = async () => {
     try {
@@ -28,7 +28,7 @@ export const Navbar = () => {
       <div className='ppa'>
       <div>
     <Popup className='pppaa'
-    trigger={<p className='p'>Bheemudu Guguloth (fw14_284)</p>}
+    trigger={<p className='p'>Bheemudu G </p>}
     modal
     nested
   >   

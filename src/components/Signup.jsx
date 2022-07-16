@@ -46,5 +46,3 @@ Privacy Policy & Terms and Conditions</p>
     </div>
   );
 }
-
-
