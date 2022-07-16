@@ -21,9 +21,10 @@ img:hover{
 }
 .p{
   font-size: 17px;
-  color: rgb(107 114 128/var(--tw-text-opacity));
+  color: rgb(107 114 128);
 }
 .p:hover{
+  color: rgb(62, 62, 62);
   text-underline-offset: 35px;
   text-decoration: underline;
   cursor: pointer;
@@ -718,6 +719,15 @@ textarea:focus, textarea:active,textarea:visited{
   .pppaa{
     margin-left: 200px;
   }
+  .prf{
+  font-size: 17px;
+  color: rgb(107 114 128);
+  }
+  .prf:hover{
+    font-size: 17px;
+    color: rgb(62, 62, 62);
+    cursor: pointer;
+    }
   .paaaa{
     font-size: 15px;
     cursor: pointer;    

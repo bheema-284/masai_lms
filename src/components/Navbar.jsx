@@ -28,7 +28,7 @@ export const Navbar = () => {
       <div className='ppa'>
       <div>
     <Popup className='pppaa'
-    trigger={<p className='p'>{user && user.email}</p>}
+    trigger={<p className='prf'>{user && user.email}</p>}
     modal
     nested
   >   
