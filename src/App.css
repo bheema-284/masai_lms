@@ -10,22 +10,22 @@
   margin: auto;
 }
 img{
-  width: 140px;
+  width: 110px;
   height: 55px;
-  margin-top: 6px;
+  margin-top: 2px;
 }
-img:hover{
+/* img:hover{
   text-underline-offset: 30px;
   text-decoration: underline;
   cursor: pointer;
-}
+} */
 .p{
   font-size: 17px;
   color: rgb(107 114 128);
 }
 .p:hover{
   color: rgb(62, 62, 62);
-  text-underline-offset: 35px;
+  text-underline-offset: 32px;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -260,14 +260,14 @@ cursor: pointer;
   cursor: pointer;
 }
  .links:focus{
-  color: rgb(78, 78, 248);
-  text-underline-offset: 35px;
+  color: rgb(0, 0, 255);
+  text-underline-offset: 32px;
   text-decoration: underline;
   cursor: pointer;
 }
 .links:hover{
   /* color: black; */
-  text-underline-offset: 35px;
+  text-underline-offset: 32px;
   text-decoration: underline;
   cursor: pointer;
 }
