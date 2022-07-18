@@ -65,8 +65,8 @@ export const Profile = (props) => {
             </div>
         </div>    
     <div className='inputsss'>   
-   <label className='label1' >Email</label> <br /> 
-        <input className="inputssssss" type="email" name="email" id="" value={props.name} /> <br /><br />
+   <label className='label1' >Name</label> <br /> 
+        <input className="inputssssss" type="text" name="name" id="" value={props.name} /> <br /><br />
         <div className='ppsave'><button type="Submit" className='btns'>SAVE</button></div>
         </div>  
         </div>
