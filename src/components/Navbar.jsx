@@ -4,8 +4,8 @@ import { useNavigate } from "react-router";
 import '../App.css';
 import masai from '../assets/masai.png'
 import { useUserAuth } from "../context/UserAuthContext";
-export const Navbar = () => {
-  const { logOut ,user} = useUserAuth();
+export const Navbar = (props) => {
+  const { logOut } = useUserAuth();
   const navigate = useNavigate();
   const handleLogout = async () => {
     try {
@@ -28,7 +28,7 @@ export const Navbar = () => {
       <div className='ppa'>
       <div>
     <Popup className='pppaa'
-    trigger={<p className='prf'>{user && user.email}</p>}
+    trigger={<p className='prf'>{props.name}</p>}
     modal
     nested
   >   
